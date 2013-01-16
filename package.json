@@ -1,0 +1,23 @@
+{
+  "name": "primo-animation",
+  "version": "0.0.0",
+  "description": "Animation component for PrimoJS",
+  "main": "animation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robashton/primo-animation.git"
+  },
+  "dependencies": {
+    "primo-spritemap": ""
+  },
+  "keywords": [
+    "PrimoJS",
+    "animation",
+    "component"
+  ],
+  "author": "Rob Ashton",
+  "license": "MIT"
+}

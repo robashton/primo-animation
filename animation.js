@@ -1,10 +1,10 @@
 var _ = require('underscore')
 var SpriteMap = require('primo-spritemap')
 
-var Animation = function(entity, path, spritecountwidth, spritecountheight) {
+var Animation = function(entity, path, tilecountwidth, tilecountheight) {
   this.entity = entity
   this.path = path
-  this.spritemap = entity.game.resources.spritemap(path, spritecountwidth, spritecountheight)
+  this.spritemap = entity.game.resources.spritemap(path, tilecountwidth, tilecountheight)
   this.currentanimation = 'idle'
   this.current = 0
   this.totalFrameTime = 0

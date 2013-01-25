@@ -1,6 +1,6 @@
 {
   "name": "primo-animation",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Animation component for PrimoJS",
   "main": "animation.js",
   "scripts": {
